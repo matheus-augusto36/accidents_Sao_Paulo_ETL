@@ -1,0 +1,48 @@
+table Medidas
+	lineageTag: 24a919fe-07aa-48fd-b271-949ef39d92cb
+
+	measure 'Nr. Total de Acidentes' = DISTINCTCOUNT(Sinistros[id_sinistro])
+		formatString: 0
+		lineageTag: 0b0d8d8d-d9ec-4804-b2c9-31485bc87210
+
+	measure 'Nr. Total de Vítimas' = COUNT(Pessoas[id_sinistro])
+		formatString: 0
+		lineageTag: 277db969-d1b9-4281-929d-5646f8088482
+
+	measure 'Vítimas por acidente' = [Nr. Total de Vítimas]/[Nr. Total de Acidentes]
+		lineageTag: 1ec254c4-ece3-4e19-9eff-94e819e4d420
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Veículos' = COUNT('Veículos'[id_sinistro])
+		formatString: 0
+		lineageTag: 01903f7a-809e-4ae1-aae9-56eaea4dc268
+
+	measure 'Veículos por Acidente' = [Total Veículos]/[Nr. Total de Acidentes]
+		lineageTag: 41cdecce-11cd-4577-9ee6-7a3f081892af
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Nr. de Óbitos' = CALCULATE(COUNT(Pessoas[id_sinistro]), Pessoas[data_obito] <> BLANK())
+		formatString: 0
+		lineageTag: c4d91d71-1aa5-4b8c-8208-d0374fc50cea
+
+	measure 'Óbitos por acidente' = [Nr. de Óbitos]/[Nr. Total de Acidentes]
+		lineageTag: eda698ca-308f-4faa-b006-3a52c50b2354
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Medidas = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Coluna 1" = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"Coluna 1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna 1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navegação
+

@@ -1,0 +1,29 @@
+expression Sinistros1 =
+		let
+		    Fonte = Excel.Workbook(File.Contents("C:\Users\Matheus\Desktop\Projeto Vortex Análise de Dados\INFOSIGA\sinistros1.xlsx"), null, true),
+		    Sheet1_Sheet = Fonte{[Item="Sheet1",Kind="Sheet"]}[Data],
+		    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+		    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"id_sinistro", type text}, {"tipo_registro", type text}, {"data_sinistro", type date}, {"hora_sinistro", type time}, {"logradouro", type text}, {"numero_logradouro", type text}, {"tipo_via", type text}, {"latitude", type number}, {"longitude", type number}, {"municipio", type text}, {"regiao_administrativa", type text}, {"administracao", type text}, {"conservacao", type text}, {"jurisdicao", type text}, {"tipo_de_veiculo", type text}, {"gravidade", type any}, {"tipo_sinistro", type text}}),
+		    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"gravidade"})
+		in
+		    #"Colunas Removidas"
+	lineageTag: adf8089e-4dad-46c6-bfd5-cb4a84094fae
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
+expression Sinistros2 =
+		let
+		    Fonte = Excel.Workbook(File.Contents("C:\Users\Matheus\Desktop\Projeto Vortex Análise de Dados\INFOSIGA\sinistros2.xlsx"), null, true),
+		    Sheet1_Sheet = Fonte{[Item="Sheet1",Kind="Sheet"]}[Data],
+		    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+		    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"id_sinistro", type text}, {"tipo_registro", type text}, {"data_sinistro", Int64.Type}, {"hora_sinistro", type time}, {"logradouro", type text}, {"numero_logradouro", type text}, {"tipo_via", type text}, {"latitude", type number}, {"longitude", type number}, {"municipio", type text}, {"regiao_administrativa", type text}, {"administracao", type text}, {"conservacao", type text}, {"jurisdicao", type text}, {"tipo_de_veiculo", type text}, {"gravidade", type text}, {"tipo_sinistro", type text}})
+		in
+		    #"Tipo Alterado"
+	lineageTag: 79aab41c-5541-4f1b-b444-93b74ce20b90
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

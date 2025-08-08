@@ -1,0 +1,6821 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "pessoa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pessoa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.id_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "id_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.municipio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "municipio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.tipo_via": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "tipo_via"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo via": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_via": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.tipo_veiculo_vitima": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "tipo_veiculo_vitima"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo veiculo vitima": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_veiculo_vitima": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.sexo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "sexo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sexo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.idade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "idade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_obito": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "data_obito"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data obito": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_obito": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information obito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact obito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info obito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic obito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document obito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure obito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record obito": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pessoa.data_obito.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_obito",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_obito.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_obito",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data obito ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information obito ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact obito ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info obito ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic obito ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document obito ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure obito ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record obito ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_obito.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_obito",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data obito trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information obito trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact obito trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info obito trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic obito trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document obito trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure obito trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record obito trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_obito.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_obito",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data obito mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information obito mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact obito mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info obito mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic obito mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document obito mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure obito mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record obito mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_obito.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_obito",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data obito dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information obito dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact obito dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info obito dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic obito dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document obito dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure obito dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record obito dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.gravidade_lesao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "gravidade_lesao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gravidade lesao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gravidade_lesao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.tipo_de_vítima": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "tipo_de vítima"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo_de vítima": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.faixa_etaria_demografica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "faixa_etaria_demografica"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa etaria demografica": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_etaria_demografica": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Faixa Etária": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.faixa_etaria_legal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "faixa_etaria_legal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa etaria legal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_etaria_legal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Faixa Etária": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.profissao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "profissao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "profissao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Profissão": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "ConceptualProperty": "data_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pessoa.data_sinistro.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_sinistro.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_sinistro.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_sinistro.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "pessoa.data_sinistro.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pessoas",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "veículo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "veículo": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.id_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "ConceptualProperty": "id_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.ano_fab": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "ConceptualProperty": "ano_fab"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano fab": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano_fab": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.ano_modelo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "ConceptualProperty": "ano_modelo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano modelo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano_modelo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.cor_veiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "ConceptualProperty": "cor_veiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cor veiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cor_veiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.data_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "ConceptualProperty": "data_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "veículo.data_sinistro.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.data_sinistro.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.data_sinistro.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.data_sinistro.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.data_sinistro.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "veículo.tipo_veiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Veículos",
+			          "ConceptualProperty": "tipo_veiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo veiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_veiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tipo de Veículo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sinistro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.id_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "id_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.tipo_registro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "tipo_registro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo registro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_registro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tipo de Registro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.data_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "data_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record sinistro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sinistro.data_sinistro.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.data_sinistro.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.data_sinistro.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.data_sinistro.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.data_sinistro.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "VariationSource": "data_sinistro",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data sinistro dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record sinistro dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.hora_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "hora_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hora_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "sinistro.logradouro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "logradouro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "logradouro": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.numero_logradouro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "numero_logradouro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero logradouro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "numero_logradouro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.tipo_via": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "tipo_via"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo via": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_via": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tipo de Via": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.municipio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "municipio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "municipio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Município": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.regiao_administrativa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "regiao_administrativa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regiao administrativa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regiao_administrativa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Região Administrativa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.administracao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "administracao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "administracao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Administração": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.conservacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "conservacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "conservacao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.jurisdicao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "jurisdicao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jurisdicao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.tipo_de_veiculo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "tipo_de_veiculo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo de veiculo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_de_veiculo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tipo de Veículo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.gravidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "gravidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gravidade": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.tipo_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "tipo_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tipo_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Tipo de Sinistro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.período_sinistro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "período_sinistro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "período sinistro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "período_sinistro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Período do Sinistro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.dia_da_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "DiaDaSemana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia da semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DiaDaSemana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.mês_format": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "Mês Format"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mês format": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mê format": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mê arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mê setup": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mê presentation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mê organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mê layout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mê system": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "mê set-up": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mê plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mê design": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "mê structure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.nr__total_de_acidentes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Nr. Total de Acidentes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nr. total de acidentes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nr. aggregate de acidente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "nr. overall de acidente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "medida.nr__total_de_vítimas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Nr. Total de Vítimas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nr. total de vítimas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nr. aggregate de vítima": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "nr. overall de vítima": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "medida.vítimas_por_acidente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Vítimas por acidente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vítimas por acidente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_veículos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Veículos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total veículos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate veículo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall veículo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "medida.veículos_por_acidente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Veículos por Acidente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "veículos por acidente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.nr__de_óbitos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Nr. de Óbitos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nr. de óbitos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.óbitos_por_acidente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Óbitos por acidente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "óbitos por acidente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "sinistro.gestão_da_via": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Sinistros",
+			          "ConceptualProperty": "Gestão da Via"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gestão da via": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "sinistro_data_sinistro_mê_has_sinistro_data_sinistro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.mê"
+			          }
+			        },
+			        "sinistro.data_sinistro.dia": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.mê"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.dia"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê3"
+			        }
+			      ]
+			    },
+			    "sinistro_data_sinistro_trimestre_has_sinistro_data_sinistro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.trimestre"
+			          }
+			        },
+			        "sinistro.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.mê"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "sinistro_data_sinistro_ano_has_sinistro_data_sinistro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro.ano": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.ano"
+			          }
+			        },
+			        "sinistro.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.ano"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos3"
+			        }
+			      ]
+			    },
+			    "sinistro_data_sinistro_hierarquia_de_data_has_sinistro_data_sinistro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "sinistro.data_sinistro.dia": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "sinistro_data_sinistro_hierarquia_de_data_has_sinistro_data_sinistro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "sinistro.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "sinistro_data_sinistro_hierarquia_de_data_has_sinistro_data_sinistro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "sinistro.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "sinistro_data_sinistro_hierarquia_de_data_has_sinistro_data_sinistro_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "sinistro.data_sinistro.ano": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "sinistro_data_sinistro_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro.data_sinistro": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro"
+			          }
+			        },
+			        "sinistro.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro.data_sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_sinistros_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_mê_has_veículo_data_sinistro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.mê"
+			          }
+			        },
+			        "veículo.data_sinistro.dia": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.mê"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.dia"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "veículo.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_trimestre_has_veículo_data_sinistro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.trimestre"
+			          }
+			        },
+			        "veículo.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.mê"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "veículo.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_ano_has_veículo_data_sinistro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro.ano": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.ano"
+			          }
+			        },
+			        "veículo.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.ano"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "veículo.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_hierarquia_de_data_has_veículo_data_sinistro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "veículo.data_sinistro.dia": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_hierarquia_de_data_has_veículo_data_sinistro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "veículo.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_hierarquia_de_data_has_veículo_data_sinistro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "veículo.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_hierarquia_de_data_has_veículo_data_sinistro_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "veículo.data_sinistro.ano": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "veículo_data_sinistro_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo.data_sinistro": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro"
+			          }
+			        },
+			        "veículo.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo.data_sinistro"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_sinistros_have_hierarquia_de_data1"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_mê_has_pessoa_data_sinistro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.mê"
+			          }
+			        },
+			        "pessoa.data_sinistro.dia": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.mê"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.dia"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_trimestre_has_pessoa_data_sinistro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.trimestre"
+			          }
+			        },
+			        "pessoa.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.mê"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_ano_has_pessoa_data_sinistro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro.ano": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.ano"
+			          }
+			        },
+			        "pessoa.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.ano"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.trimestre"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_hierarquia_de_data_has_pessoa_data_sinistro_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_sinistro.dia": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_hierarquia_de_data_has_pessoa_data_sinistro_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_sinistro.mê": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_hierarquia_de_data_has_pessoa_data_sinistro_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_sinistro.trimestre": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_hierarquia_de_data_has_pessoa_data_sinistro_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_sinistro.ano": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "pessoa_data_sinistro_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_sinistro": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro"
+			          }
+			        },
+			        "pessoa.data_sinistro.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_sinistro"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_sinistros_have_hierarquia_de_data2"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_mê_has_pessoa_data_obito_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito.mê": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.mê"
+			          }
+			        },
+			        "pessoa.data_obito.dia": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.mê"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.dia"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pessoa.data_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_trimestre_has_pessoa_data_obito_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito.trimestre": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.trimestre"
+			          }
+			        },
+			        "pessoa.data_obito.mê": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.trimestre"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.mê"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pessoa.data_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_ano_has_pessoa_data_obito_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito.ano": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.ano"
+			          }
+			        },
+			        "pessoa.data_obito.trimestre": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.ano"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.trimestre"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pessoa.data_obito.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_hierarquia_de_data_has_pessoa_data_obito_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_obito.dia": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_hierarquia_de_data_has_pessoa_data_obito_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_obito.mê": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_hierarquia_de_data_has_pessoa_data_obito_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_obito.trimestre": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_hierarquia_de_data_has_pessoa_data_obito_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.hierarquia_de_data"
+			          }
+			        },
+			        "pessoa.data_obito.ano": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "pessoa_data_obito_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa.data_obito": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito"
+			          }
+			        },
+			        "pessoa.data_obito.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa.data_obito"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_obitos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "sinistro_has_pessoa": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "pessoa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_pessoa"
+			        }
+			      ]
+			    },
+			    "sinistro_has_veículo": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "veículo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_veículos"
+			        }
+			      ]
+			    },
+			    "sinistro_has_gestão_da_via": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.gestão_da_via": {
+			          "Target": {
+			            "Entity": "sinistro.gestão_da_via"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.gestão_da_via"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_gestão_da_via"
+			        }
+			      ]
+			    },
+			    "sinistro_has_medida_óbitos_por_acidente": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "medida.óbitos_por_acidente": {
+			          "Target": {
+			            "Entity": "medida.óbitos_por_acidente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "medida.óbitos_por_acidente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_óbitos_por_acidente"
+			        }
+			      ]
+			    },
+			    "pessoa_has_medida_óbitos_por_acidente": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "medida.óbitos_por_acidente": {
+			          "Target": {
+			            "Entity": "medida.óbitos_por_acidente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "medida.óbitos_por_acidente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_óbitos_por_acidente"
+			        }
+			      ]
+			    },
+			    "pessoa_has_medida_nr__de_óbitos": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "medida.nr__de_óbitos": {
+			          "Target": {
+			            "Entity": "medida.nr__de_óbitos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "medida.nr__de_óbitos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_nr__de_óbitos"
+			        }
+			      ]
+			    },
+			    "veículo_has_medida_veículos_por_acidente": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "medida.veículos_por_acidente": {
+			          "Target": {
+			            "Entity": "medida.veículos_por_acidente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "medida.veículos_por_acidente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_veículos_por_acidente"
+			        }
+			      ]
+			    },
+			    "sinistro_has_medida_veículos_por_acidente": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "medida.veículos_por_acidente": {
+			          "Target": {
+			            "Entity": "medida.veículos_por_acidente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "medida.veículos_por_acidente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_veículos_por_acidente"
+			        }
+			      ]
+			    },
+			    "veículo_has_medida_total_veículos": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "medida.total_veículos": {
+			          "Target": {
+			            "Entity": "medida.total_veículos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "medida.total_veículos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_total_veículos"
+			        }
+			      ]
+			    },
+			    "sinistro_has_medida_vítimas_por_acidente": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "medida.vítimas_por_acidente": {
+			          "Target": {
+			            "Entity": "medida.vítimas_por_acidente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "medida.vítimas_por_acidente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_vítimas_por_acidente"
+			        }
+			      ]
+			    },
+			    "pessoa_has_medida_vítimas_por_acidente": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "medida.vítimas_por_acidente": {
+			          "Target": {
+			            "Entity": "medida.vítimas_por_acidente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "medida.vítimas_por_acidente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_vítimas_por_acidente"
+			        }
+			      ]
+			    },
+			    "pessoa_has_medida_nr__total_de_vítimas": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "medida.nr__total_de_vítimas": {
+			          "Target": {
+			            "Entity": "medida.nr__total_de_vítimas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "medida.nr__total_de_vítimas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_nr__total_de_vítimas"
+			        }
+			      ]
+			    },
+			    "sinistro_has_medida_nr__total_de_acidentes": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "medida.nr__total_de_acidentes": {
+			          "Target": {
+			            "Entity": "medida.nr__total_de_acidentes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "medida.nr__total_de_acidentes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_nr__total_de_acidentes"
+			        }
+			      ]
+			    },
+			    "sinistro_has_mês_format": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.mês_format": {
+			          "Target": {
+			            "Entity": "sinistro.mês_format"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.mês_format"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_mês_formats"
+			        }
+			      ]
+			    },
+			    "sinistro_has_dia_da_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.dia_da_semana": {
+			          "Target": {
+			            "Entity": "sinistro.dia_da_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.dia_da_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_dia_da_semanas"
+			        }
+			      ]
+			    },
+			    "sinistro_has_período_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.período_sinistro": {
+			          "Target": {
+			            "Entity": "sinistro.período_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.período_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_período_sinistros"
+			        }
+			      ]
+			    },
+			    "sinistro_has_tipo_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.tipo_sinistro": {
+			          "Target": {
+			            "Entity": "sinistro.tipo_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.tipo_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_tipo_sinistros"
+			        }
+			      ]
+			    },
+			    "sinistro_has_gravidade": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.gravidade": {
+			          "Target": {
+			            "Entity": "sinistro.gravidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.gravidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_gravidades"
+			        }
+			      ]
+			    },
+			    "sinistro_has_tipo_de_veiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.tipo_de_veiculo": {
+			          "Target": {
+			            "Entity": "sinistro.tipo_de_veiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.tipo_de_veiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_tipo_de_veiculos"
+			        }
+			      ]
+			    },
+			    "sinistro_has_jurisdicao": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.jurisdicao": {
+			          "Target": {
+			            "Entity": "sinistro.jurisdicao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.jurisdicao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_jurisdicaos"
+			        }
+			      ]
+			    },
+			    "sinistro_has_conservacao": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.conservacao": {
+			          "Target": {
+			            "Entity": "sinistro.conservacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.conservacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_conservacaos"
+			        }
+			      ]
+			    },
+			    "sinistro_has_administracao": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.administracao": {
+			          "Target": {
+			            "Entity": "sinistro.administracao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.administracao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_administracaos"
+			        }
+			      ]
+			    },
+			    "sinistro_has_regiao_administrativa": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.regiao_administrativa": {
+			          "Target": {
+			            "Entity": "sinistro.regiao_administrativa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.regiao_administrativa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_regiao_administrativas"
+			        }
+			      ]
+			    },
+			    "sinistro_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.municipio": {
+			          "Target": {
+			            "Entity": "sinistro.municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_municipios"
+			        }
+			      ]
+			    },
+			    "sinistro_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.longitude": {
+			          "Target": {
+			            "Entity": "sinistro.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_longitudes"
+			        }
+			      ]
+			    },
+			    "sinistro_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.latitude": {
+			          "Target": {
+			            "Entity": "sinistro.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_latitudes"
+			        }
+			      ]
+			    },
+			    "sinistro_has_tipo_via": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.tipo_via": {
+			          "Target": {
+			            "Entity": "sinistro.tipo_via"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.tipo_via"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_tipo_via"
+			        }
+			      ]
+			    },
+			    "sinistro_has_numero_logradouro": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.numero_logradouro": {
+			          "Target": {
+			            "Entity": "sinistro.numero_logradouro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.numero_logradouro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_numero_logradouros"
+			        }
+			      ]
+			    },
+			    "sinistro_has_logradouro": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.logradouro": {
+			          "Target": {
+			            "Entity": "sinistro.logradouro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.logradouro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_logradouros"
+			        }
+			      ]
+			    },
+			    "sinistro_has_hora_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.hora_sinistro": {
+			          "Target": {
+			            "Entity": "sinistro.hora_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.hora_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_hora_sinistros"
+			        }
+			      ]
+			    },
+			    "sinistro_has_data_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.data_sinistro": {
+			          "Target": {
+			            "Entity": "sinistro.data_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.data_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_data_sinistros"
+			        }
+			      ]
+			    },
+			    "sinistro_has_tipo_registro": {
+			      "Binding": {
+			        "ConceptualEntity": "Sinistros"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "sinistro": {
+			          "Target": {
+			            "Entity": "sinistro"
+			          }
+			        },
+			        "sinistro.tipo_registro": {
+			          "Target": {
+			            "Entity": "sinistro.tipo_registro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "sinistro"
+			            },
+			            "Object": {
+			              "Role": "sinistro.tipo_registro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "sinistros_have_tipo_registros"
+			        }
+			      ]
+			    },
+			    "veículo_has_tipo_veiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "veículo.tipo_veiculo": {
+			          "Target": {
+			            "Entity": "veículo.tipo_veiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "veículo.tipo_veiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_tipo_veiculos"
+			        }
+			      ]
+			    },
+			    "veículo_has_data_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "veículo.data_sinistro": {
+			          "Target": {
+			            "Entity": "veículo.data_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "veículo.data_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_data_sinistros"
+			        }
+			      ]
+			    },
+			    "veículo_has_cor_veiculo": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "veículo.cor_veiculo": {
+			          "Target": {
+			            "Entity": "veículo.cor_veiculo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "veículo.cor_veiculo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_cor_veiculos"
+			        }
+			      ]
+			    },
+			    "veículo_has_ano_modelo": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "veículo.ano_modelo": {
+			          "Target": {
+			            "Entity": "veículo.ano_modelo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "veículo.ano_modelo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_ano_modelos"
+			        }
+			      ]
+			    },
+			    "veículo_has_ano_fab": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "veículo.ano_fab": {
+			          "Target": {
+			            "Entity": "veículo.ano_fab"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "veículo.ano_fab"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_ano_fab"
+			        }
+			      ]
+			    },
+			    "veículo_has_id_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Veículos"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "veículo": {
+			          "Target": {
+			            "Entity": "veículo"
+			          }
+			        },
+			        "veículo.id_sinistro": {
+			          "Target": {
+			            "Entity": "veículo.id_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "veículo"
+			            },
+			            "Object": {
+			              "Role": "veículo.id_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "veículos_have_id_sinistros"
+			        }
+			      ]
+			    },
+			    "pessoa_has_data_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.data_sinistro": {
+			          "Target": {
+			            "Entity": "pessoa.data_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_data_sinistros"
+			        }
+			      ]
+			    },
+			    "pessoa_has_profissao": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.profissao": {
+			          "Target": {
+			            "Entity": "pessoa.profissao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.profissao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_profissaos"
+			        }
+			      ]
+			    },
+			    "pessoa_has_faixa_etaria_legal": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.faixa_etaria_legal": {
+			          "Target": {
+			            "Entity": "pessoa.faixa_etaria_legal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.faixa_etaria_legal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_faixa_etaria_legal"
+			        }
+			      ]
+			    },
+			    "pessoa_has_faixa_etaria_demografica": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.faixa_etaria_demografica": {
+			          "Target": {
+			            "Entity": "pessoa.faixa_etaria_demografica"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.faixa_etaria_demografica"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_faixa_etaria_demograficas"
+			        }
+			      ]
+			    },
+			    "pessoa_has_tipo_de_vítima": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.tipo_de_vítima": {
+			          "Target": {
+			            "Entity": "pessoa.tipo_de_vítima"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.tipo_de_vítima"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_tipo_de_vítimas"
+			        }
+			      ]
+			    },
+			    "pessoa_has_gravidade_lesao": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.gravidade_lesao": {
+			          "Target": {
+			            "Entity": "pessoa.gravidade_lesao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.gravidade_lesao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_gravidade_lesaos"
+			        }
+			      ]
+			    },
+			    "pessoa_has_data_obito": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.data_obito": {
+			          "Target": {
+			            "Entity": "pessoa.data_obito"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.data_obito"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_data_obitos"
+			        }
+			      ]
+			    },
+			    "pessoa_has_idade": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.idade": {
+			          "Target": {
+			            "Entity": "pessoa.idade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.idade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_idades"
+			        }
+			      ]
+			    },
+			    "pessoa_has_sexo": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.sexo": {
+			          "Target": {
+			            "Entity": "pessoa.sexo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.sexo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_sexos"
+			        }
+			      ]
+			    },
+			    "pessoa_has_tipo_veiculo_vitima": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.tipo_veiculo_vitima": {
+			          "Target": {
+			            "Entity": "pessoa.tipo_veiculo_vitima"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.tipo_veiculo_vitima"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_tipo_veiculo_vitimas"
+			        }
+			      ]
+			    },
+			    "pessoa_has_tipo_via": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.tipo_via": {
+			          "Target": {
+			            "Entity": "pessoa.tipo_via"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.tipo_via"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_tipo_via"
+			        }
+			      ]
+			    },
+			    "pessoa_has_municipio": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.municipio": {
+			          "Target": {
+			            "Entity": "pessoa.municipio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.municipio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_municipios"
+			        }
+			      ]
+			    },
+			    "pessoa_has_id_sinistro": {
+			      "Binding": {
+			        "ConceptualEntity": "Pessoas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pessoa": {
+			          "Target": {
+			            "Entity": "pessoa"
+			          }
+			        },
+			        "pessoa.id_sinistro": {
+			          "Target": {
+			            "Entity": "pessoa.id_sinistro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pessoa"
+			            },
+			            "Object": {
+			              "Role": "pessoa.id_sinistro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pessoa_have_id_sinistros"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Acidentes Rodoviários em São Paulo"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d4bd9f20-7ede-473c-9afa-f64089732f53"
+  }
+}

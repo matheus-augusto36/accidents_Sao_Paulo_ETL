@@ -1,0 +1,32 @@
+relationship 17b58ec3-0153-4b67-93e0-1aca2e19072a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Sinistros.data_sinistro
+	toColumn: LocalDateTable_59fd01ae-2a2d-4740-967e-f96822d4e8e8.Date
+
+relationship ed6d2607-1d4b-4a26-ab72-1582d862d1e1
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Pessoas.data_sinistro
+	toColumn: LocalDateTable_5767843a-9496-40bf-a81d-98bbbe84f0b6.Date
+
+relationship 4e7d88a2-79f4-4506-9015-7375fafaf58b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Pessoas.data_obito
+	toColumn: LocalDateTable_bdbfb402-a51a-46b1-84ba-ace859de09d2.Date
+
+relationship bb6301ea-f0f2-4d41-905e-10f0a3c2ce28
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Veículos.data_sinistro
+	toColumn: LocalDateTable_ab9fd7bc-62a5-4173-8ceb-d7c525a2228d.Date
+
+relationship 56440a33-b03f-94e2-8c45-d06e56188b41
+	crossFilteringBehavior: bothDirections
+	toCardinality: many
+	fromColumn: Sinistros.id_sinistro
+	toColumn: Veículos.id_sinistro
+
+relationship eadc17e3-6fff-2e20-defe-97e794eb940c
+	crossFilteringBehavior: bothDirections
+	toCardinality: many
+	fromColumn: Sinistros.id_sinistro
+	toColumn: Pessoas.id_sinistro
+

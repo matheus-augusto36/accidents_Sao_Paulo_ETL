@@ -1,0 +1,28 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Sinistros1","Sinistros2","Pessoas","Veículos","Sinistros","Medidas"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.145.1602.0 (25.07)+10647c9fa319b5e39936cdb21328038c371d1fe4
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Pessoas
+ref table Veículos
+ref table Sinistros
+ref table Medidas
+ref table DateTableTemplate_ea778d62-60d2-4876-a566-80e60342c661
+ref table LocalDateTable_59fd01ae-2a2d-4740-967e-f96822d4e8e8
+ref table LocalDateTable_5767843a-9496-40bf-a81d-98bbbe84f0b6
+ref table LocalDateTable_bdbfb402-a51a-46b1-84ba-ace859de09d2
+ref table LocalDateTable_ab9fd7bc-62a5-4173-8ceb-d7c525a2228d
+
+ref cultureInfo pt-BR
+

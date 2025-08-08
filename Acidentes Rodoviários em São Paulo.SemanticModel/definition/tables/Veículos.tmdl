@@ -1,0 +1,84 @@
+table Veículos
+	lineageTag: 2a148c01-95f1-495e-8791-5f4f903b355d
+
+	column id_sinistro
+		dataType: string
+		lineageTag: 1444d432-4943-4fa5-8d2d-0b3dc1f78350
+		summarizeBy: none
+		sourceColumn: id_sinistro
+
+		annotation SummarizationSetBy = Automatic
+
+	column ano_fab
+		dataType: int64
+		formatString: 0
+		lineageTag: ee9136eb-4d59-40ba-bd7f-9fc931fc18fb
+		summarizeBy: sum
+		sourceColumn: ano_fab
+
+		annotation SummarizationSetBy = Automatic
+
+	column ano_modelo
+		dataType: string
+		lineageTag: 526d703c-637f-4ea5-bf6a-a4ec993ef74f
+		summarizeBy: none
+		sourceColumn: ano_modelo
+
+		annotation SummarizationSetBy = Automatic
+
+	column cor_veiculo
+		dataType: string
+		lineageTag: 4e03893e-ae3f-46d3-b4e6-70420a0d9954
+		summarizeBy: none
+		sourceColumn: cor_veiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_sinistro
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d53f309a-a60d-4dd0-a579-d4cbbebab67e
+		summarizeBy: none
+		sourceColumn: data_sinistro
+
+		variation Variation
+			isDefault
+			relationship: bb6301ea-f0f2-4d41-905e-10f0a3c2ce28
+			defaultHierarchy: LocalDateTable_ab9fd7bc-62a5-4173-8ceb-d7c525a2228d.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column tipo_veiculo
+		dataType: string
+		lineageTag: 57d06b82-ff96-4975-9811-ad7519e8b7fd
+		summarizeBy: none
+		sourceColumn: tipo_veiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Veículos = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Matheus\Desktop\Projeto Vortex Análise de Dados\INFOSIGA\veiculos.xlsx"), null, true),
+				    Sheet1_Sheet = Fonte{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Column1", Int64.Type}, {"id_sinistro", Int64.Type}, {"ano_fab", Int64.Type}, {"ano_modelo", Int64.Type}, {"cor_veiculo", type text}, {"data_sinistro", Int64.Type}, {"tipo_veiculo", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Column1"}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Colunas Removidas",{{"id_sinistro", type text}, {"data_sinistro", type date}, {"ano_fab", type text}, {"ano_modelo", type text}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Tipo Alterado1", each ([ano_fab] <> null and [ano_fab] <> "0")),
+				    #"Tipo Alterado2" = Table.TransformColumnTypes(#"Linhas Filtradas",{{"ano_fab", Int64.Type}}),
+				    #"Linhas Filtradas1" = Table.SelectRows(#"Tipo Alterado2", each [ano_fab] >= 1900 and [ano_fab] <= 2025),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Linhas Filtradas1","Automovel","Automóvel",Replacer.ReplaceText,{"tipo_veiculo"}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído","Nao Disponivel","Não Disponível",Replacer.ReplaceText,{"tipo_veiculo"}),
+				    #"Valor Substituído2" = Table.ReplaceValue(#"Valor Substituído1","Caminhao","Caminhão",Replacer.ReplaceText,{"tipo_veiculo"}),
+				    #"Valor Substituído3" = Table.ReplaceValue(#"Valor Substituído2","Onibus","Ônibus",Replacer.ReplaceText,{"tipo_veiculo"})
+				in
+				    #"Valor Substituído3"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

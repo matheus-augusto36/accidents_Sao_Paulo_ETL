@@ -1,0 +1,147 @@
+table Pessoas
+	lineageTag: ef650c57-b223-4579-a23e-d7934769e3fd
+
+	column id_sinistro
+		dataType: string
+		lineageTag: 17950537-3eb1-462b-8188-4aeb1a5701b1
+		summarizeBy: none
+		sourceColumn: id_sinistro
+
+		annotation SummarizationSetBy = Automatic
+
+	column municipio
+		dataType: string
+		lineageTag: cd3ab77d-46ed-4d10-baca-17605bc1d7ba
+		summarizeBy: none
+		sourceColumn: municipio
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_via
+		dataType: string
+		lineageTag: 277490c8-30d9-42af-a528-f4f1d87c7efe
+		summarizeBy: none
+		sourceColumn: tipo_via
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_veiculo_vitima
+		dataType: string
+		lineageTag: e82fb886-d944-4cae-b2fa-ffd9c026c114
+		summarizeBy: none
+		sourceColumn: tipo_veiculo_vitima
+
+		annotation SummarizationSetBy = Automatic
+
+	column sexo
+		dataType: string
+		lineageTag: c2db67c5-cddd-4870-9252-c83fe2c25639
+		summarizeBy: none
+		sourceColumn: sexo
+
+		annotation SummarizationSetBy = Automatic
+
+	column idade
+		dataType: int64
+		formatString: 0
+		lineageTag: 838b01d1-5a70-4e62-8149-2c78b4cc5986
+		summarizeBy: sum
+		sourceColumn: idade
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_obito
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 78261293-ad66-480d-9abb-9f625f48283c
+		summarizeBy: none
+		sourceColumn: data_obito
+
+		variation Variation
+			isDefault
+			relationship: 4e7d88a2-79f4-4506-9015-7375fafaf58b
+			defaultHierarchy: LocalDateTable_bdbfb402-a51a-46b1-84ba-ace859de09d2.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column gravidade_lesao
+		dataType: string
+		lineageTag: 0818d67e-ef10-4c69-a8a6-a80ded1ededa
+		summarizeBy: none
+		sourceColumn: gravidade_lesao
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tipo_de vítima'
+		dataType: string
+		lineageTag: 77d708ae-fa83-45cf-91fc-41628a3a79f7
+		summarizeBy: none
+		sourceColumn: tipo_de vítima
+
+		annotation SummarizationSetBy = Automatic
+
+	column faixa_etaria_demografica
+		dataType: string
+		lineageTag: 43d4be07-35e8-46eb-b061-f0e7d5c718c6
+		summarizeBy: none
+		sourceColumn: faixa_etaria_demografica
+
+		annotation SummarizationSetBy = Automatic
+
+	column faixa_etaria_legal
+		dataType: string
+		lineageTag: 50433720-0ae5-40b1-acab-f4d0d618f5ac
+		summarizeBy: none
+		sourceColumn: faixa_etaria_legal
+
+		annotation SummarizationSetBy = Automatic
+
+	column profissao
+		dataType: string
+		lineageTag: 3a62b586-356e-4c5d-8018-caa25ac1c5cc
+		summarizeBy: none
+		sourceColumn: profissao
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_sinistro
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 46f22511-2365-4ca2-ab4c-3776c9cd06bd
+		summarizeBy: none
+		sourceColumn: data_sinistro
+
+		variation Variation
+			isDefault
+			relationship: ed6d2607-1d4b-4a26-ab72-1582d862d1e1
+			defaultHierarchy: LocalDateTable_5767843a-9496-40bf-a81d-98bbbe84f0b6.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Pessoas = m
+		mode: import
+		source =
+				let
+				    Fonte = Excel.Workbook(File.Contents("C:\Users\Matheus\Desktop\Projeto Vortex Análise de Dados\INFOSIGA\pessoas.xlsx"), null, true),
+				    Sheet1_Sheet = Fonte{[Item="Sheet1",Kind="Sheet"]}[Data],
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Column1", Int64.Type}, {"id_sinistro", Int64.Type}, {"municipio", type text}, {"tipo_via", type text}, {"tipo_veiculo_vitima", type text}, {"sexo", type text}, {"idade", Int64.Type}, {"data_obito", Int64.Type}, {"gravidade_lesao", type text}, {"tipo_de vítima", type text}, {"faixa_etaria_demografica", type text}, {"faixa_etaria_legal", type text}, {"profissao", type text}, {"data_sinistro", Int64.Type}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Column1"}),
+				    #"Tipo Alterado1" = Table.TransformColumnTypes(#"Colunas Removidas",{{"id_sinistro", type text}, {"data_obito", type date}, {"data_sinistro", type date}, {"idade", Int64.Type}}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Tipo Alterado1", each [idade] >= 0 and [idade] <= 120),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Linhas Filtradas",null,"Não Disponível",Replacer.ReplaceValue,{"tipo_veiculo_vitima"}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído",null,"Não Disponível",Replacer.ReplaceValue,{"profissao"}),
+				    #"Valor Substituído2" = Table.ReplaceValue(#"Valor Substituído1","Nao Disponivel","Não Disponível",Replacer.ReplaceText,{"gravidade_lesao"}),
+				    #"Valor Substituído3" = Table.ReplaceValue(#"Valor Substituído2","Nao Disponivel","Não Disponível",Replacer.ReplaceText,{"tipo_de vítima"}),
+				    #"Valor Substituído4" = Table.ReplaceValue(#"Valor Substituído3",null,"Não Disponível",Replacer.ReplaceValue,{"tipo_de vítima"})
+				in
+				    #"Valor Substituído4"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

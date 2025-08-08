@@ -1,0 +1,223 @@
+table Sinistros
+	lineageTag: fe4e158a-3cf0-488a-8ecf-a696ee3e8646
+
+	column id_sinistro
+		dataType: string
+		lineageTag: b205d2c8-13b1-46f7-bb9b-4ce46fb40c75
+		summarizeBy: none
+		sourceColumn: id_sinistro
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_registro
+		dataType: string
+		lineageTag: 86d8cb71-6b05-46c7-aa3a-96b4d5e84219
+		summarizeBy: none
+		sourceColumn: tipo_registro
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_sinistro
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 55543dc0-3497-43c1-a534-86b69ae4367e
+		summarizeBy: none
+		sourceColumn: data_sinistro
+
+		variation Variation
+			isDefault
+			relationship: 17b58ec3-0153-4b67-93e0-1aca2e19072a
+			defaultHierarchy: LocalDateTable_59fd01ae-2a2d-4740-967e-f96822d4e8e8.'Hierarquia de datas'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column hora_sinistro
+		dataType: dateTime
+		formatString: Long Time
+		lineageTag: 362da694-af18-4b34-86bc-8f8baa804d89
+		summarizeBy: none
+		sourceColumn: hora_sinistro
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Time
+
+	column logradouro
+		dataType: string
+		lineageTag: d41bb23c-5605-487c-ac28-c495099192e5
+		summarizeBy: none
+		sourceColumn: logradouro
+
+		annotation SummarizationSetBy = Automatic
+
+	column numero_logradouro
+		dataType: string
+		lineageTag: 1180d499-e6bd-4419-993c-86d88383e2a0
+		summarizeBy: none
+		sourceColumn: numero_logradouro
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_via
+		dataType: string
+		lineageTag: ece0a3f0-9859-4a25-8811-0428d522bc59
+		summarizeBy: none
+		sourceColumn: tipo_via
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: 73438566-dc57-406d-94f3-2672c648d53b
+		summarizeBy: sum
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: 568b180d-16c9-44fb-ab4a-21a24e426989
+		summarizeBy: sum
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column municipio
+		dataType: string
+		lineageTag: 9455e58e-cf2e-4cb2-bda0-915021665197
+		summarizeBy: none
+		sourceColumn: municipio
+
+		annotation SummarizationSetBy = Automatic
+
+	column regiao_administrativa
+		dataType: string
+		lineageTag: ab52c856-9ab9-4edd-976b-9685f38b3a4c
+		summarizeBy: none
+		sourceColumn: regiao_administrativa
+
+		annotation SummarizationSetBy = Automatic
+
+	column administracao
+		dataType: string
+		lineageTag: f8da07ae-ff01-42e1-8822-02cbcd15390e
+		summarizeBy: none
+		sourceColumn: administracao
+
+		annotation SummarizationSetBy = Automatic
+
+	column conservacao
+		dataType: string
+		lineageTag: c4e73246-a377-4155-ad67-d04dca53475b
+		summarizeBy: none
+		sourceColumn: conservacao
+
+		annotation SummarizationSetBy = Automatic
+
+	column jurisdicao
+		dataType: string
+		lineageTag: c619a2e7-5ba2-4146-abcc-70fa3be235b3
+		summarizeBy: none
+		sourceColumn: jurisdicao
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_de_veiculo
+		dataType: string
+		lineageTag: efb581f7-bc1d-4a8d-bdfa-9502b89e7212
+		summarizeBy: none
+		sourceColumn: tipo_de_veiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column gravidade
+		dataType: string
+		lineageTag: 2ce26443-8700-4030-96e1-4fd40b794cf5
+		summarizeBy: none
+		sourceColumn: gravidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_sinistro
+		dataType: string
+		lineageTag: 79b45700-d6e1-484e-ae8a-d99ed0277083
+		summarizeBy: none
+		sourceColumn: tipo_sinistro
+
+		annotation SummarizationSetBy = Automatic
+
+	column período_sinistro = ```
+			
+			VAR Hora = HOUR([hora_sinistro])
+			RETURN 
+			    SWITCH(
+			        TRUE(),
+			        Hora >= 0 && Hora < 6, "Madrugada",
+			        Hora >= 6 && Hora < 12, "Manhã",
+			        Hora >= 12 && Hora < 18, "Tarde",
+			        Hora >= 18 && Hora <= 23, "Noite",
+			        "Indefinido"
+			    )
+			
+			```
+		lineageTag: a688567f-3fb6-44b7-a97d-7a7414ca93e1
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiaDaSemana = ```
+			FORMAT(Sinistros[data_sinistro], "dddd")
+			
+			```
+		lineageTag: 3945f748-4972-4d71-a5a2-473db189ecdf
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Mês Format' = LEFT(Sinistros[data_sinistro].[Mês], 3)
+		lineageTag: 95a8183c-0091-46ad-ab22-c75930d8fcf2
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Gestão da Via' =
+			
+			SWITCH(TRUE(),
+			    [administracao] = "Prefeitura" || [administracao] = "DER" || [administracao] = "DNIT" || [administracao] = "ARTESP", "Via Pública",
+			    [administracao] = "Não Disponível", [administracao],
+			    "Via Privada")
+		lineageTag: 95e4c654-4ed8-4a43-a29a-0e71980d8081
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sinistros = m
+		mode: import
+		source =
+				let
+				    Fonte = Table.Combine({Sinistros2, Sinistros1}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Fonte,{{"id_sinistro", type text}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Tipo Alterado","nao_disponivel","Não Disponível",Replacer.ReplaceText,{"gravidade"}),
+				    #"Valor Substituído1" = Table.ReplaceValue(#"Valor Substituído",null,"Não Disponível",Replacer.ReplaceValue,{"gravidade"}),
+				    #"Valor Substituído2" = Table.ReplaceValue(#"Valor Substituído1","Nao_Disponivel","Não Disponível",Replacer.ReplaceText,{"tipo_sinistro"}),
+				    #"Valor Substituído3" = Table.ReplaceValue(#"Valor Substituído2","nao_disponivel","Não Disponível",Replacer.ReplaceText,{"tipo_de_veiculo"}),
+				    #"Valor Substituído4" = Table.ReplaceValue(#"Valor Substituído3","Nao Disponivel","Não Disponível",Replacer.ReplaceText,{"jurisdicao"}),
+				    #"Valor Substituído5" = Table.ReplaceValue(#"Valor Substituído4",null,"Não Disponível",Replacer.ReplaceValue,{"jurisdicao"}),
+				    #"Valor Substituído6" = Table.ReplaceValue(#"Valor Substituído5",null,"Não Disponível",Replacer.ReplaceValue,{"administracao"}),
+				    #"Valor Substituído7" = Table.ReplaceValue(#"Valor Substituído6","Nao Disponivel","Não Disponível",Replacer.ReplaceText,{"administracao"}),
+				    #"Valor Substituído8" = Table.ReplaceValue(#"Valor Substituído7","Nao Disponivel","Não Disponível",Replacer.ReplaceText,{"tipo_via"})
+				in
+				    #"Valor Substituído8"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+
