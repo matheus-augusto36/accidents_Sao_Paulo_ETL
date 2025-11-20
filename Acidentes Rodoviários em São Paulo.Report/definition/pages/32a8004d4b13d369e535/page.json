@@ -1,0 +1,145 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "32a8004d4b13d369e535",
+  "displayName": "Análise de perfil da vítima",
+  "displayOption": "ActualSize",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "626e353ef3e209db6a2f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Sinistros"
+              }
+            },
+            "Property": "data_sinistro"
+          }
+        },
+        "type": "Advanced",
+        "howCreated": "User"
+      }
+    ]
+  },
+  "objects": {
+    "outspace": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "''"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "Literal": {
+                    "Value": "''"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'capa3.png'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "capa334451884294817847.png"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fill'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "b017939bfa6e84566eb2",
+      "target": "de83d38695c44e78676a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "de83d38695c44e78676a",
+      "target": "b017939bfa6e84566eb2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "362e8594d8f185a9f341",
+      "target": "b017939bfa6e84566eb2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "362e8594d8f185a9f341",
+      "target": "de83d38695c44e78676a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "de83d38695c44e78676a",
+      "target": "362e8594d8f185a9f341",
+      "type": "DataFilter"
+    },
+    {
+      "source": "b017939bfa6e84566eb2",
+      "target": "362e8594d8f185a9f341",
+      "type": "DataFilter"
+    },
+    {
+      "source": "ec3c4c1fdfe0f4e71375",
+      "target": "362e8594d8f185a9f341",
+      "type": "DataFilter"
+    },
+    {
+      "source": "ec3c4c1fdfe0f4e71375",
+      "target": "59e8345e7b51793ebac3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "ec3c4c1fdfe0f4e71375",
+      "target": "b017939bfa6e84566eb2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "ec3c4c1fdfe0f4e71375",
+      "target": "de83d38695c44e78676a",
+      "type": "DataFilter"
+    }
+  ]
+}

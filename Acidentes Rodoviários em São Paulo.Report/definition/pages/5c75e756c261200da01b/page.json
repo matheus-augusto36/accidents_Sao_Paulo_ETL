@@ -1,0 +1,200 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "5c75e756c261200da01b",
+  "displayName": "Análise Regional",
+  "displayOption": "FitToWidth",
+  "height": 1080,
+  "width": 1920,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "626e353ef3e209db6a2f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Sinistros"
+              }
+            },
+            "Property": "data_sinistro"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "s",
+              "Entity": "Sinistros",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 1,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "s"
+                        }
+                      },
+                      "Property": "data_sinistro"
+                    }
+                  },
+                  "Right": {
+                    "DateSpan": {
+                      "Expression": {
+                        "Literal": {
+                          "Value": "datetime'2024-01-01T00:00:00'"
+                        }
+                      },
+                      "TimeUnit": 5
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      },
+      {
+        "name": "c90c1ae568568ec01cca",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Pessoas"
+              }
+            },
+            "Property": "tipo_via"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "User",
+        "objects": {
+          "general": [
+            {
+              "properties": {
+                "isInvertedSelectionMode": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "true"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'capa1.png'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "capa19328507276749082.png"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fill'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "20fc489d6f60311cc190",
+      "target": "c8221eba9b7283c52b5b",
+      "type": "DataFilter"
+    },
+    {
+      "source": "20fc489d6f60311cc190",
+      "target": "f2ce8a5340c28812a64b",
+      "type": "DataFilter"
+    },
+    {
+      "source": "20fc489d6f60311cc190",
+      "target": "501d8f9612bac4ea5de5",
+      "type": "DataFilter"
+    },
+    {
+      "source": "c8221eba9b7283c52b5b",
+      "target": "20fc489d6f60311cc190",
+      "type": "DataFilter"
+    },
+    {
+      "source": "c8221eba9b7283c52b5b",
+      "target": "f2ce8a5340c28812a64b",
+      "type": "DataFilter"
+    },
+    {
+      "source": "c8221eba9b7283c52b5b",
+      "target": "501d8f9612bac4ea5de5",
+      "type": "DataFilter"
+    },
+    {
+      "source": "f2ce8a5340c28812a64b",
+      "target": "c8221eba9b7283c52b5b",
+      "type": "DataFilter"
+    },
+    {
+      "source": "f2ce8a5340c28812a64b",
+      "target": "20fc489d6f60311cc190",
+      "type": "DataFilter"
+    },
+    {
+      "source": "f2ce8a5340c28812a64b",
+      "target": "501d8f9612bac4ea5de5",
+      "type": "DataFilter"
+    },
+    {
+      "source": "501d8f9612bac4ea5de5",
+      "target": "c8221eba9b7283c52b5b",
+      "type": "DataFilter"
+    },
+    {
+      "source": "501d8f9612bac4ea5de5",
+      "target": "20fc489d6f60311cc190",
+      "type": "DataFilter"
+    },
+    {
+      "source": "501d8f9612bac4ea5de5",
+      "target": "f2ce8a5340c28812a64b",
+      "type": "DataFilter"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Análise Regional
+	Acidentes em vias municipais publicas sob responsabilidade da prefeitura, na região metropolitana de São Paulo
+
+Análise de perfil dos acidentes
+	Principais veículos são automóvel e motocicleta, com colisões laterais, frontais e atropelamento. Somente 3,5% dos acidentes são fatais.
+	Acidentes bem distribuídos entre tarde, noite e manhã (cerca de 30% cada).
+
+Análise de perfil da vítima
+	Perfil da vítima consiste em indivíduos do sexo masculino entre 20 e 30 anos, sendo a profissão mais frequente Motoboy e Motorista
+
+Análise de Óbitos
+	A maior parte dos óbitos consiste em indivíduos motociclistas do sexo masculino (motoboy), na região metropolitana de SP e aos finais de semana, predominantemente nos 	períodos da noite e madrugada.
+
+Análise Temporal
+	Observa-se um aumento no número de acidentes a cada ano, entre 2022 e 2024, sendo o período mais crítico de cada ano entre abril e junho, possivelmente ocasionado por 	aumento de tráfego nas vias nesse período.
+	Há maior incidência de acidentes nos finais de semana durante a tarde e noite, algo que pode ser explicado pela maior demanda de serviços de delivery nesse período da semana em específico e pela baixa visibilidade por conta da falta de iluminação natural nas vias.
+
