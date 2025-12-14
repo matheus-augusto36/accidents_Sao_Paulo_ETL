@@ -68,5 +68,10 @@ Este projeto evidencia a vulnerabilidade dos motociclistas, especialmente motobo
 
 ---
 
+📬 Contato
+Se quiser conversar sobre o projeto ou oportunidades:
+
+Matheus Augusto 📧 silvamatheusaugusto36@gmail.com 🔗 www.linkedin.com/in/matheus-augusto-silva-582230215
+
 ## 📜 Licença
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
