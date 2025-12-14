@@ -64,7 +64,7 @@ Este projeto tem como objetivo analisar o perfil dos acidentes de trânsito ocor
 ---
 
 ## 📌 Conclusão
-Este projeto evidencia a vulnerabilidade dos motociclistas, especialmente motoboys, em vias municipais da Região Metropolitana de São Paulo. A análise temporal reforça a necessidade de medidas preventivas em períodos críticos e em horários de maior risco, e da implementação de projetos de melhoria (principalmente no que concerne a iluminação) por parte dos órgãos responsáveis pelas vias.
+Este projeto evidencia a vulnerabilidade dos motociclistas, especialmente motoboys, em vias municipais da Região Metropolitana de São Paulo. A análise temporal reforça a necessidade de medidas preventivas em períodos críticos e em horários de maior risco, e da implementação de projetos de melhoria (principalmente no que concerne a iluminação) por parte dos órgãos responsáveis pelas vias e também projetos de conscientização em prol da direção defensiva por parte dos condutores.
 
 ---
 
